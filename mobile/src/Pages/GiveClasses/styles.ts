@@ -13,18 +13,37 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     
-  //  title:{
-   //     fontFamily='Archivo_700Bold',
-   // },
+    title: {
+        fontFamily: 'Archivo_700Bold',
+        color: '#FFF',
+        fontSize: 32,
+        lineHeight: 37,
+        maxWidth: 180,
+    },
 
-    //description: {
+    description: {
+      fontFamily: 'Poppins_400Regular',
+      color: '#d4c2ff',
+      fontSize: 16,
+      lineHeight: 26,
+      maxWidth: 240,
+      marginTop: 24,
+    },
 
-   // }
+    okButton: {
+      marginVertical: 40,
+      backgroundColor: '#04d361',
+      height: 58,
+      alignItems: 'center',
+      justifyContent: 'center',
+      borderRadius: 8,
+    },
 
-   //<Text style={styles.title}>Quer ser um Proffy?</Text>
-     //           <Text style={styles.description}>
-       //           Para começar, você precisa se cadastrar como professor na nossa plataforma web.
-          //      </Text>
+    okButtonText: {
+      fontFamily: 'Archivo_700Bold',
+      color: '#FFF',
+      fontSize: 16,
+    },
 });
 
 export default styles;

@@ -13,9 +13,13 @@ import giveClassesIcon from '../../assets/images/icons/give-classes.png';
 function Landing(){
     const {navigate} = useNavigation();
     // or navigation
-    function handleNavigationToGiveClassesPage(){
+    function handleNavigateToGiveClassesPage(){
     // or navigation.navigate('GiveClasses');    
         navigate('GiveClasses');
+    }
+
+    function handleNavigateToStudyPages(){
+        navigate('Study');
     }
 
     return (
@@ -27,11 +31,11 @@ function Landing(){
             </Text>
 
             <View style={styles.buttonsContainer}>
-                <RectButton style={[styles.button, styles.buttonPrimary]}>
+                <RectButton onPress={handleNavigateToStudyPages} style={[styles.button, styles.buttonPrimary]}>
                     <Image source={studyIcon} />
                     <Text style={styles.buttonText}>Estudar</Text>
                 </RectButton>
-                <RectButton onPress={handleNavigationToGiveClassesPage} style={[styles.button, styles.buttonSecondary]}>
+                <RectButton onPress={handleNavigateToGiveClassesPage} style={[styles.button, styles.buttonSecondary]}>
                     <Image source={giveClassesIcon} />
                     <Text style={styles.buttonText}>Dar Aulas</Text>
                 </RectButton>

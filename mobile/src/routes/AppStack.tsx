@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Landing from '../Pages/Landing';
 import GiveClasses from '../Pages/GiveClasses';
-import StudyTabs from './studyTabs';
+import StudyTabs from './StudyTabs';
 
 const { Navigator, Screen } = createStackNavigator();
 

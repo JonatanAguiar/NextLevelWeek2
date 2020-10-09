@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
     },
 
     footer: {
+        marginTop: 24,
         backgroundColor: '#fafafc',
         padding: 24,
         alignItems: 'center',
@@ -79,6 +80,10 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         marginRight: 8,
+    },
+
+    favorited: {
+        backgroundColor: '#e33d3d',
     },
 
     contactButton: {

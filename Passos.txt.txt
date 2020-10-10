@@ -1,0 +1,10 @@
+-yarn install em cada projeto(ou npm install) (web, server, mobile)
+- No mobile:
+  ->expo install expo-font @expo-google-fonts/archivo expo-font @expo-google-fonts/poppins
+  ->Navegação: ir em reactnavigation.org
+    ->yarn add @react-navigation/native
+    ->expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+    ->yarn add @react-navigation/stack
+    ->yarn add @react-navigation/bottom-tabs
+Criar banco para favoritos
+ -expo install @react-native-community/async-storage

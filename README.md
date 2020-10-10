@@ -1,6 +1,6 @@
 # <p align="center">NLW 2.0 - Proffy  👨‍🎓👨‍💻 </p>
 <br>
-# Proffy
+# <p align="center">Proffy</p>
 <br>
 <p align="center">Projeto Full-stack, com React em Typescript e mobile com React-native ⚛💻📲</p>
 

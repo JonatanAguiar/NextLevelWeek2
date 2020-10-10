@@ -1,10 +1,7 @@
 # <p align="center">NLW 2.0 - Proffy  👨‍🎓👨‍💻 </p>
-<h1 align="center">
 <br>
-  <img src="/src/assets/images/logo.svg" alt="Proffy" width="170">
+# Proffy
 <br>
-<br>
-</h1>
 <p align="center">Projeto Full-stack, com React em Typescript e mobile com React-native ⚛💻📲</p>
 
 <p align="center"> Aplicação web e mobile para poder ter aulas particulares com um Proffy.</p>
